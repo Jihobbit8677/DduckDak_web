@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+/* Customized CSS*/
+
+.entryPage {
+  background-image: url(../img/code.gif);
+  /* display: flex;
+  flex-direction: column; */
+  margin: 150px;
+}
+
+#entryPage-hello {
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.footer {
+  right: 0;
+  bottom: 0;
+  width: 25%;
+  color: white;
+  text-align: center;
+  opacity: 0.1;
+  background: none;
+}
+
+.footer:hover {
+  opacity: 0.6;
+}
+
+/* entryPage finished, digData start*/
+
+.question-mark__hint-alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: chocolate;
+}
+
+/* missionCard1 */
+
+.mission-complete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes spinCard {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+    transform: rotateY(1turn);
+  }
+}
+
+#missionCard1 {
+  animation: spinCard 3s ease-in-out infinite;
+  transition: ;
+}
+
+#carouselExampleFade {
+  margin: 30px 30px;
+  padding: 100px 100px;
+}
+
+.smarSensorMission1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+}
+
+#myCarousel {
+  margin: 80px 50px 30px 50px;
+}
+
+.smartSensorMission1-btn {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+  font-size: medium;
+}
+
+/*finalSumUp page*/
+.missionCardCollectionLink {
+  margin: 50px 50px;
+}
+
+.missionCardLinks {
+  display: flex;
+  justify-content: center;
+}
+
+.missionCardLink {
+  size: 100px;
+  animation: spinCard 7s ease-in-out infinite;
+  cursor: pointer;
+}
+
+#cardListsNoticeText {
+  text-align: center;
+  padding: 20px;
+}
