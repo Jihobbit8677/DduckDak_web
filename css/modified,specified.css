@@ -9,11 +9,22 @@
   margin: 150px;
 }
 
+#entryPage-contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 #entryPage-hello {
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
+  white-space: no-wrap;
+}
+
+#entryPage-let {
   white-space: no-wrap;
 }
 
