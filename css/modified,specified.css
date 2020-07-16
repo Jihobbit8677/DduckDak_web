@@ -14,6 +14,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 200px 200px;
 }
 
 #entryPage-hello {
@@ -23,11 +24,7 @@
   background-clip: text;
 }
 
-#entryPage-let {
-  white-space: no-wrap;
-}
-
-.footer {
+.entryPage-footer {
   right: 0;
   bottom: 0;
   width: 25%;
@@ -35,6 +32,7 @@
   text-align: center;
   opacity: 0.1;
   background: none;
+  white-space: no-wrap;
 }
 
 .footer:hover {
