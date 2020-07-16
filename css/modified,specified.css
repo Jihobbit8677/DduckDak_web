@@ -14,7 +14,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 200px 200px;
 }
 
 #entryPage-hello {
@@ -29,13 +28,13 @@
   bottom: 0;
   width: 25%;
   color: white;
-  text-align: center;
   opacity: 0.1;
-  background: none;
-  white-space: no-wrap;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
 }
 
-.footer:hover {
+.entryPage-footer:hover {
   opacity: 0.6;
 }
 
