@@ -107,6 +107,7 @@
   animation: spinCard 3s ease-in-out infinite;
   transition: ;
 }
+
 /*smartSensor Mission */
 
 .smartSensorMission1-body {
@@ -198,6 +199,11 @@
 #cardListsNoticeText {
   text-align: center;
   padding: 20px;
+}
+
+.mission-complete__button {
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .missionComplete__buttons {
