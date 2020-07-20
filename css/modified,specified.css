@@ -143,13 +143,31 @@
   color: ;
 }
 
-#hologramMission1-container {
+.smartSensorMission1-body {
   background: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.3) 0%,
     rgba(0, 0, 0, 0.7) 75%,
     #000000 100%
   );
+}
+
+.hologramMission1-body {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.7) 75%,
+    #000000 100%
+  );
+}
+
+#hologramMission1-container {
+  /* background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.7) 75%,
+    #000000 100%
+  ); */
 }
 
 /*finalSumUp page*/
