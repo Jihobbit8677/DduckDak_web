@@ -107,6 +107,14 @@
   animation: spinCard 3s ease-in-out infinite;
   transition: ;
 }
+/*smartSensor Mission */
+
+.smartSensorMission1-body {
+  /* background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text; */
+}
 
 #carouselExampleFade {
   margin: 30px 30px;
@@ -131,7 +139,29 @@
   font-size: medium;
 }
 
+#smartSensorMission1-button {
+  color: ;
+}
+
+#hologramMission1-container {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.7) 75%,
+    #000000 100%
+  );
+}
+
 /*finalSumUp page*/
+.finalSumUp-body {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.7) 75%,
+    #000000 100%
+  );
+}
+
 .missionCardCollectionLink {
   margin: 50px 50px;
 }
@@ -150,4 +180,18 @@
 #cardListsNoticeText {
   text-align: center;
   padding: 20px;
+}
+
+.missionComplete__buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.finalSumUp-tail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
