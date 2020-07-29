@@ -103,9 +103,13 @@
   }
 }
 
-#missionCard1 {
-  animation: spinCard 3s ease-in-out infinite;
+.missionCard {
+  animation: spinCard 3s ease-in-out 1;
   transition: ;
+}
+
+.animate__animated.animate__wobble {
+  animation-delay: 2.8s;
 }
 
 /*smartSensor Mission */
@@ -192,7 +196,7 @@
 
 .missionCardLink {
   size: 100px;
-  animation: spinCard 7s ease-in-out infinite;
+  animation: spinCard 5s ease-in-out 1;
   cursor: pointer;
 }
 
