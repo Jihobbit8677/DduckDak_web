@@ -105,7 +105,6 @@
 
 .missionCard {
   animation: spinCard 3s ease-in-out 1;
-  transition: ;
 }
 
 .animate__animated.animate__wobble {
@@ -198,6 +197,8 @@
   size: 100px;
   animation: spinCard 5s ease-in-out 1;
   cursor: pointer;
+  border-radius: 30px;
+  padding: 10px;
 }
 
 #cardListsNoticeText {
