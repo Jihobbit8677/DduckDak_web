@@ -104,11 +104,12 @@
         <!-- Button trigger modal-->
         <button
           type="button"
-          class="btn btn-primary"
+          class="btn btn-danger"
+          id="bigDataMission-modal-btn"
           data-toggle="modal"
           data-target="#modalRelatedContent"
         >
-          미션 지령 받기!
+          <strong>미션 지령 받기!</strong>
         </button>
 
         <!--Modal: modalRelatedContent-->
@@ -284,19 +285,28 @@
         alt="Responsive image"
       /> -->
       <br />
-      <p>
-        <a
-          class="btn btn peach-gradient"
-          data-toggle="collapse"
-          href="#collapseExample"
-          role="button"
-          aria-expanded="false"
-          aria-controls="collapseExample"
-        >
-          튜토리얼 보기!
-        </a>
-      </p>
-      <div class="collapse" id="collapseExample" style="width: 300px;">
+      <a
+        class="ui olive button"
+        id="bigDataMission-tutorial-dropdown"
+        data-toggle="collapse"
+        href="#collapseExample"
+        role="button"
+        aria-expanded="false"
+        aria-controls="collapseExample"
+      >
+        튜토리얼 보기!
+      </a>
+
+      <div
+        class="collapse"
+        id="collapseExample"
+        style="
+          width: 70%;
+          margin-left: 15%;
+          margin-right: 15%;
+          margin-top: 3px;
+        "
+      >
         <div class="card card-body">
           튜토리얼 내용
         </div>
