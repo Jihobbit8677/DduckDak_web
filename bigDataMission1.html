@@ -86,8 +86,8 @@
     <!-- Masthead-->
     <header class="masthead">
       <!-- jumbotron -->
-      <div class="jumbotron">
-        <h1 class="display-4">[Raw Data]</h1>
+      <div class="jumbotron" style='margin-top: -250px;'>
+        <h1 class="display-4" style="background-color:lightseagreen;"><strong>[Raw Data]</strong></h1>
         <br />
         <p class="lead">
           어린아이들이 흥미를 느낄 만한<br/> ‘맞춤전시’를 기획하기 위해,<br /><상상의
@@ -156,11 +156,12 @@
                     <img src="img/tepy.jpg" class="img-fluid" alt="" />
                   </div>
 
-                  <div class="col-7">
+                  <div class="col-7 modalContents">
                     <p><strong>미션 내용</strong></p>
                     <p>
                       다음 튜토리얼 내용을 잘 이해하고, 정답을 입력창에 적어줘!
                     </p>
+                    <a href="#bigDataMission-tutorial-dropdown" class="nav-link js-scroll-trigger">
                     <button
                       type="button"
                       class="btn btn-info btn-md"
@@ -168,6 +169,14 @@
                     >
                       미션 수행하기!
                     </button>
+                  </a>
+                  <button
+                  type="button"
+                  class="btn btn-info btn-md"
+                  data-dismiss="modal"
+                  style='background-color: tomato;'>
+                  X
+                  </button> 
                   </div>
                 </div>
               </div>
@@ -300,7 +309,7 @@
         aria-expanded="false"
         aria-controls="collapseExample"
       >
-        튜토리얼 보기!
+        튜토리얼 보기!(클릭)
       </a>
 
       <div

@@ -78,6 +78,13 @@
   color: chocolate;
 }
 
+.modalContents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 #bigDataMission-modal-btn {
   text-align: center;
   display: block;

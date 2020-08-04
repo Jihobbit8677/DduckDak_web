@@ -649,10 +649,10 @@ pre code {
   }
 }
 .row {
-  /* display: flex;
+  display: flex;
   flex-wrap: wrap;
   margin-right: -0.75rem;
-  margin-left: -0.75rem; */
+  margin-left: -0.75rem;
 }
 
 .no-gutters {
@@ -4457,7 +4457,7 @@ input[type="button"].btn-block {
 }
 .navbar-toggler:hover,
 .navbar-toggler:focus {
-  text-decoration: none;
+  text-decoration: goldenrod;
 }
 
 .navbar-toggler-icon {
