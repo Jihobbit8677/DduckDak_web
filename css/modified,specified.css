@@ -53,21 +53,55 @@
   margin-top: 0px;
 }
 
-#webtoon1 {
+#webtoon1,
+#webtoon12 {
   margin-top: -200px;
 }
 
 #webtoon2 {
 }
 
-#webtoon3 {
+#webtoon3,
+#webtoon14 {
   margin-left: -150px;
   margin-top: 30px;
 }
 
-#webtoon4 {
+#webtoon4,
+#webtoon15 {
   margin-top: 40px;
   margin-right: -150px;
+}
+
+.showing {
+  display: block;
+}
+
+#webtoon5 {
+  margin-top: -200px;
+  margin-right: -50px;
+}
+
+#webtoon6 {
+}
+
+#webtoon7 {
+  margin-left: -150px;
+}
+
+#webtoon8 {
+  margin-top: -180px;
+}
+
+#webtoon9 {
+}
+
+#webtoon10 {
+  margin-left: -130px;
+}
+
+#webtoon11 {
+  margin-right: -100px;
 }
 
 .question-mark__hint-alert {
