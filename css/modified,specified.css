@@ -221,6 +221,20 @@ a.token_naverEncyLink {
   );
 }
 
+.missionInterviews {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.missionInterview {
+  width: 80%;
+  height: auto;
+  border-radius: 30px;
+  margin-top: 30px;
+}
+
 .missionCardCollectionLink {
   margin: 50px 50px;
 }
@@ -232,7 +246,7 @@ a.token_naverEncyLink {
 
 .missionCardLink {
   size: 100px;
-  animation: spinCard 5s ease-in-out 1;
+  animation: spinCard 6s ease-in-out infinite;
   cursor: pointer;
   border-radius: 30px;
   padding: 10px;
@@ -255,9 +269,20 @@ a.token_naverEncyLink {
   align-items: center;
 }
 
+.finalSumUp-body {
+  margin-top: 100px;
+}
+
+#finalSumUp-interviewTitle {
+  font-family: "Nanum Pen Script", cursive;
+  padding-bottom: 0px;
+  color: blanchedalmond;
+  font-size: 40px;
+}
 .finalSumUp-tail {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
 }

@@ -15,6 +15,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
     />
+    <!-- CSS animation on scroll CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Font Awesome icons (free version)-->
     <script
       src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
@@ -44,12 +46,74 @@
       href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
   </head>
-
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" > 
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger animate__animated animate__jackInTheBox" href="index.html"
+        >꿈 나와라 뚝딱!</a
+      >
+      <button
+        class="navbar-toggler navbar-toggler-right"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarResponsive"
+        aria-controls="navbarResponsive"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        
+      >
+        인터뷰 보기
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#bigDataMissionInterview"
+              >1.빅데이터 전문가</a
+            >
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#hologramMissionInterview"
+              >2.홀로그램 전문가</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#smartSensorMissionInterview"
+              >3.스마트 센서 전문가</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <body class="finalSumUp-body">
-    <p>내용 정리</p>
+    <h2 class="text-center mt-5 animate__animated animate__tada animate__delay-1s" id="finalSumUp-interviewTitle" style=>전문가와 직접 인터뷰 해보기!</h1>
+    <div class="missionInterviews">
+      <img
+        src="interviewFiles/interview_bigData.png"
+        alt="bigDataMissionInterviewFile"
+        class="missionInterview"
+        id="bigDataMissionInterview"
+      />
+    
+      <img
+        src="interviewFiles/interview_hologram.png"
+        alt="bigDataMissionInterviewFile"
+        class="missionInterview"
+        id="hologramMissionInterview"
+      />
+  
+      <img
+        src="interviewFiles/interview_smartSensor.png"
+        alt="bigDataMissionInterviewFile"
+        class="missionInterview"
+        id="smartSensorMissionInterview"
+      />
+    </div>
     <div class="missionCardCollectionLink">
       <div class="missionCardLinks">
         <div id="missionCard1">
@@ -58,32 +122,34 @@
               src="img/jobCard1_bigData.jpg"
               alt=""
               class="missionCardLink"
-              style="width: 150px; height: 190px;"
+              style="width: 160px; height: 240px;"
             />
           </a>
         </div>
         <div id="missionCard2">
-          <a href="./smartSensorStartPage.html">
+          <a href="smartSensorStartPage.html">
             <img
               src="img/jobCard2_hologram.jpg"
               alt=""
               class="missionCardLink"
-              style="width: 150px; height: 190px;"
+              style="width: 160px; height: 240px;"
             />
           </a>
         </div>
         <div id="missionCard3">
-          <a href="./hologramMissionStartPage.html">
+          <a href="hologramMissionStartPage.html">
             <img
               src="img/jobCard3_smartSensor.jpg"
               alt=""
               class="missionCardLink"
-              style="width: 150px; height: 190px;"
+              style="width: 160px; height: 240px;"
             />
           </a>
         </div>
       </div>
-      <p id="cardListsNoticeText">직업카드 클릭하면 각 미션으로 이동</p>
+      <p id="cardListsNoticeText" style="padding-top: 2px; color: whitesmoke;">
+        **직업카드 클릭하면 각 미션으로 이동
+      </p>
     </div>
     <div class="finalSumUp-tail">
       <div class="missionComplete__buttons">
@@ -91,9 +157,10 @@
           <a href="">
             <button
               type="button"
-              class="btn btn-primary btn-lg animate__animated animate__bounce animate__delay-4s"
+              class="btn btn-primary btn-lg animate__animated animate__bounce animate__delay-10s"
             >
-              앞으로 이거 해주세요!<br />(설문조사)<br />Powered by Typeform
+              앞으로 이거 해주세요!<br />마음껏 피드백 주기!<br />(Powered by
+              Typeform)
             </button>
           </a>
         </div>
